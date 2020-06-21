@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auction</title> 
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous"></link>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="rpu_auction.css">
+
+
+</head>
+
+<body>
+<div class="container">
+	 <div class="jumbotron"style="padding:0px margin:10px 0px;">
+        
+        <h1 style="text-align:center"> <img class="logo" src="zlatan.gif" alt="zlatan" width="20%">We are <span ><img class="logo" src="RPU.png" alt="My_Logo" width="20%"></span>!!<img class="logo" src="zlatan.gif" alt="zlatan" width="20%"></h1>
+        
+    </div>
+    <h1 style="text-align: center" id="yoyo">Welcome to RPU Auction!!!</h1>
+
+			<div class="well well-lg">
+
+				<div id="biddisp">
+					<h5>Min-Bid: <span id="mbid">5</span></h5>
+					<h5>Current-Bid: <span id="cbid">5</span></h5>
+			     </div>
+				<h2 id="teamname">Team A</h2>
+
+				<h3 id="bidtext">Do you want sijin to play for your team?</h3>
+				<div id="btndiv">
+					<button class="btn btn-lg btn-success" id="btn1" onclick="btn1clk()">Yes</button>
+					<button class="btn btn-lg btn-danger" id="btn2" onclick="btn2clk()">No</button>	
+					</div>
+					<div id="spldiv">
+					<input type="text" name="bidval" placeholder="Bid amount">
+					<button id="spl"onclick="spl()">click me</button>
+				
+				</div>
+			</div>	
+
+<div class="teams">
+	<div id="teama">
+		<h2>Team A</h2>
+		<h5>Balance:<span id="bala">100</span></h5>
+		<ul class="list-group" id="alist">
+
+</ul>
+	</div>	
+	<div id="teamb">
+		<h2>Team B</h2>
+		<h5>Balance:<span id="balb">100</span></h5>
+		<ul class="list-group" id="blist">
+
+</ul>
+	</div>	
+	<div id="teamc">
+		<h2>Team C</h2>
+		<h5>Balance:<span id="balc">100</span></h5>
+		<ul class="list-group"id="clist">
+
+	</div>	
+	</div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript"src="rpu_auction.js"> </script>
+</body>
+
+</html>

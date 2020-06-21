@@ -1,0 +1,48 @@
+.well{
+	width: 60%;
+	margin:0 auto;
+	
+	height:300px;
+	padding: 20px 25px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
+body{
+background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+font-family: 'Playfair Display SC', serif;
+}
+.jumbotron{
+	background-color: transparent;
+}
+
+
+.btn{
+	margin: 15px;
+
+	border-radius: 30%;
+}
+.teams{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+#biddisp{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+h1{
+	font-family: 'Permanent Marker', cursive;
+}
