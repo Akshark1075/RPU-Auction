@@ -7,6 +7,6 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
   res.render('rpu_auction');
 })
-app.listen(process.env.port||port, () => {
+app.listen(process.env.PORT||port, () => {
   console.log(`Starting server`)
 })
