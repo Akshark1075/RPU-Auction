@@ -1,0 +1,28 @@
+{
+  "name": "rpu-auction",
+  "version": "1.0.0",
+  "description": "Auction app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshark1075/RPU-Auction.git"
+  },
+  "keywords": [
+    "RPU",
+    "auction"
+  ],
+  "author": "Arvind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshark1075/RPU-Auction/issues"
+  },
+  "homepage": "https://github.com/Akshark1075/RPU-Auction#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  }
+}
